@@ -1,0 +1,10 @@
+{
+    "presets": ["@babel/preset-typescript"],
+    "overrides": [{
+      "test": "*.spec.ts",
+
+      "presets": [
+        ["@babel/preset-typescript"], { "ignoreExtensions": false }
+      ]
+    }]
+  }
